@@ -10,6 +10,7 @@
 
 :root{
     --color-primary: #EBE7D8;
+    --color-secondary: #FFC21E;
     --color-nav: #986845;
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
@@ -69,13 +70,37 @@ header nav ul li a{
 /* Main */
 main{
     display: flex;
+    padding: 10px 190px;
 }
 .left-side-container{
-    width: 50%;
+    width: 80%;
 }
 .right-side-container{
-    width: 50%;
+    width: 20%;
 }
 .right-side-container img{
-    color: transparent;
+    margin-left: 120px;
+    opacity: 0.5;
+}
+.left-side-container h1{
+    font-size: 700;
+}
+.copy-name{
+    font-size: 90px;
+    font-weight: 700;
+}
+.copy-name span{
+    color: var(--color-secondary);
+}
+.copy-role{
+    font-size: 90px;
+    font-weight: 700;
+}
+.copy-role{
+    font-size: 90px;
+    font-weight: 700;
+}
+.copy-headline{
+    font-size: 30px;
+
 }
