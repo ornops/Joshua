@@ -10,6 +10,7 @@
 
 :root{
     --color-primary: #EBE7D8;
+    --color-nav: #986845;
     --color-success: #00bf8e;
     --color-warning: #f7c94b;
     --color-danger: #f75842;
@@ -42,16 +43,39 @@ body{
 header{
     display: flex;
     background: var(--color-header-bg);
+    justify-content: space-between;
+    padding: 10px 190px;
 }
 header nav{
-   
+    display: inline-block;
+}
+header nav ul {
+    margin-top: 35px;
+}
+header nav ul li {
+    color: var(--color-black);
     display: inline-block;
 }
 header nav ul li a{
-    color: var(--color-black);
-
+    color: var(--color-nav);
+    font-weight: 700;
+    margin-right: 100px;
 }
 .logo-image{
     width: 100px;
     height: 100px;
+}
+
+/* Main */
+main{
+    display: flex;
+}
+.left-side-container{
+    width: 50%;
+}
+.right-side-container{
+    width: 50%;
+}
+.right-side-container img{
+    color: transparent;
 }
