@@ -39,10 +39,19 @@ body{
 }
 
 /* Header styling */
-header nav{
+header{
+    display: flex;
     background: var(--color-header-bg);
+}
+header nav{
+   
+    display: inline-block;
 }
 header nav ul li a{
     color: var(--color-black);
 
+}
+.logo-image{
+    width: 100px;
+    height: 100px;
 }
