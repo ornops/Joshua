@@ -31,7 +31,11 @@
     --transition: all 400ms ease;
     
 }
+html{
+    height: 100%;
+}
 body{
+    height: 100%;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -66,9 +70,11 @@ header nav ul li a{
     width: 100px;
     height: 100px;
 }
-
-/* Main */
-main{
+.section{
+    height: 100%;
+}
+/* Index Section */
+.index-section{
     display: flex;
     padding: 10px 190px;
 }
@@ -103,4 +109,18 @@ main{
 .copy-headline{
     font-size: 30px;
 
+}
+
+
+/* About Section */
+.about-section{
+    background: #00bf8e;
+}
+/* Projects Section */
+.projects-section{
+    background: #848685;
+}
+/* Contacts Section */
+.contacts-section{
+    background: #383938;
 }
