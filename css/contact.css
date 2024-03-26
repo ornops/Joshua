@@ -1,3 +1,21 @@
 .contact-section{
     background: var(--color-bg);
 }
+.contact-heading-container {
+    display: flex;
+    justify-content: center;
+
+}
+.contact-heading-container h1{
+    color: var(--color-header-text);
+}
+
+.contact-content-container{
+    display: flex;
+}
+.contact-content-left{
+    width: 50%;
+}
+.contact-content-right{
+    width: 50%;
+}
