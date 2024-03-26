@@ -29,6 +29,10 @@
     --font-weight-medium: 500;
     --font-weight-bold: 700;
 
+    --font-size-regular: 18px;
+    --font-size-large: 90px;
+    --font-size-extra-large: 100px;
+
     --container-width-lg: 76%;
     --container-width-md: 90%;
     --container-width-sm: 94%;
@@ -70,7 +74,7 @@ body{
     opacity: 0.5;
 }
 .left-side-container h1{
-    font-size: 700;
+    font-weight: 700;
 }
 .copy-name{
     font-size: 90px;
