@@ -38,6 +38,7 @@
 }
 html{
     height: 100%;
+    scroll-behavior: smooth;
 }
 body{
     height: 100%;
@@ -122,6 +123,7 @@ header nav ul li a{
 }
 .index-projects-button{
     background: var(--color-secondary);
+    scroll-behavior: smooth;
 }
 .index-projects-button:hover{
     transform: scale(1.2);
