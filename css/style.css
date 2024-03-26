@@ -25,6 +25,10 @@
     --color-bg1: #2e3267;
     --color-bg2: #424890;
 
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
     --container-width-lg: 76%;
     --container-width-md: 90%;
     --container-width-sm: 94%;
@@ -74,6 +78,7 @@ header nav ul li a{
 .section{
     height: 100%;
 }
+
 /* Index Section */
 .index-section{
     display: flex;
@@ -95,20 +100,44 @@ header nav ul li a{
 }
 .copy-name{
     font-size: 90px;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
 }
 .copy-name span{
     color: var(--color-secondary);
 }
 .copy-role{
     font-size: 90px;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
 }
 .copy-headline{
     font-size: 30px;
-
 }
-
+.index-projects-button,.index-hire-button{
+    width: 153px;
+    height: 62px;
+    font-size: 18px;
+    margin: 50px 30px 0 0;
+    font-weight: var(--font-weight-regular);
+    border-radius: 5px;
+}
+.index-projects-button{
+    background: var(--color-secondary);
+}
+.index-projects-button:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: .50s;
+}
+.index-hire-button{
+    background: transparent;
+    border: solid 1px var(--color-secondary);
+    color: var(--color-secondary);
+}
+.index-hire-button:hover{
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: .50s;
+}
 
 /* About Section */
 .about-section{
@@ -130,7 +159,7 @@ header nav ul li a{
 .about-section-right-side p{
     font-size: 30px;
     color: var(--color-black);
-    font-weight: 600;
+    font-weight: var(--font-weight-medium);
     margin-top: 80px;
 }
 /* Projects Section */
