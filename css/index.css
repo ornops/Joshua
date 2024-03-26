@@ -51,34 +51,7 @@ body{
 }
 
 /* Header styling */
-header{
-    display: flex;
-    background: var(--color-header-bg);
-    justify-content: space-between;
-    padding: 10px 190px;
-}
-header nav{
-    display: inline-block;
-}
-header nav ul {
-    margin-top: 35px;
-}
-header nav ul li {
-    color: var(--color-black);
-    display: inline-block;
-}
-header nav ul li a{
-    color: var(--color-nav);
-    font-weight: 700;
-    margin-right: 100px;
-}
-.logo-image{
-    width: 100px;
-    height: 100px;
-}
-.section{
-    height: 100%;
-}
+
 
 /* Index Section */
 .index-section{
@@ -142,36 +115,7 @@ header nav ul li a{
 }
 
 /* About Section */
-.about-section{
-    background: #EBE7D8;
-    display: flex;
-}
-.about-section-left-side{
-    width: 50%;
-}
-.about-section-right-side{
-    width: 50%;
-}
-.about-section-right-side h1{
-    margin-top: 100px;
-}
-.about-section-right-side h1, .left-side-container h1,.projects-section h1{
-    color: var(--color-header-text);
-}
-.about-section-right-side p{
-    font-size: 30px;
-    color: var(--color-black);
-    font-weight: var(--font-weight-medium);
-    margin-top: 80px;
-}
+
 /* Projects Section */
-.projects-section{
-    background: #EBE7D8;
-}
-.projects-section h1{
-    margin-left: 831px;
-}
+
 /* Contacts Section */
-.contact-section{
-    background: var(--color-bg);
-}

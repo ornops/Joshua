@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    background: var(--color-header-bg);
+    justify-content: space-between;
+    padding: 10px 190px;
+}
+header nav{
+    display: inline-block;
+}
+header nav ul {
+    margin-top: 35px;
+}
+header nav ul li {
+    color: var(--color-black);
+    display: inline-block;
+}
+header nav ul li a{
+    color: var(--color-nav);
+    font-weight: 700;
+    margin-right: 100px;
+}
+.logo-image{
+    width: 100px;
+    height: 100px;
+}
+.section{
+    height: 100%;
+}
